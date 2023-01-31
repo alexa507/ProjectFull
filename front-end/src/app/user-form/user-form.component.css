@@ -1,0 +1,18 @@
+#title {
+    width: 100%;
+    text-align: center;
+}
+
+#inputs{
+    margin-top: 3em;
+    width: 100%;
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 2em;
+}
+
+.userInputs {
+    width: 25%;
+}

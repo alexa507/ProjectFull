@@ -1,0 +1,22 @@
+<div class="card my-5">
+    <div class="card-body">
+        <div id="title">
+            <h2>Add a new type of user/Edit an existing type of user</h2>
+        </div>
+        <div id="inputs">
+            <div class="p-grid">
+                <div class="p-col-4">
+                    <label for="float-input">Type User</label>
+                </div>
+                <div class="p-col-8">
+                    <input type="text" id="float-input" pInputText [(ngModel)]="userType" />
+                </div>
+            </div>
+            <div id="buttons">
+                <p-button *ngIf="!inEdit" label="Create" type="submit" class="btn btn-info" (click)="create()"></p-button>
+                <p-button *ngIf="inEdit" label="Update" type="submit" class="btn btn-info" (click)="update()"></p-button>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
